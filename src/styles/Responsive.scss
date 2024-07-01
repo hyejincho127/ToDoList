@@ -1,0 +1,595 @@
+// // Responsive styles
+
+
+// @media screen and (max-width: 1200px) {
+//     .Container {
+//         width: 80%;
+//     }
+
+//     .Header {
+//         padding-top: 2rem;
+//         padding-bottom: 1.5rem;
+        
+//         h2 {
+//             font-size: 1.1rem;
+//             width: 18rem;
+//         }
+//     }
+
+//     main {
+//         width: 85vw;
+//         gap: 50px;
+        
+//         .filter-buttons {
+//             left: 15%;
+//             top: 15%;
+            
+//             .filter-button {
+//                 width: 180px;
+//                 height: 45px;
+//                 font-size: 0.8rem;
+//                 padding-left: 1rem;
+//             }
+//         }
+
+//         .TodoWrapper {
+//             width: 50vw;
+            
+//             #titleContainer {
+//                 .title {
+//                     font-size: 1.8rem;
+//                 }
+
+//                 .todo-btn {
+//                     padding: 0.4rem;
+//                     top: 1%;
+//                     right: 4%;
+//                 }
+//             }
+
+//             #filterContainer {
+//                 .search {
+//                     width: 14vw;
+//                 }
+//             }
+
+//             .Todo {
+//                 .inner-todo {
+//                     .checkContainer {
+//                         #taskName {
+//                             margin-left: 0.5rem;
+//                         }
+
+//                         .checkbox-label {
+//                             .checkmark {
+//                                 width: 0.8rem;
+//                                 height: 0.9rem;
+//                             }
+//                         }
+//                     }
+//                 }
+//             }
+//         }
+//     }
+// }
+
+// @media screen and (max-width: 992px) {
+//     .Container {
+//         width: 90%;
+//     }
+
+//     .Header {
+//         h2 {
+//             font-size: 1rem;
+//             width: 16rem;
+//         }
+//     }
+
+//     main {
+//         width: 90vw;
+//         gap: 40px;
+        
+//         .filter-buttons {
+//             left: 10%;
+//             top: 10%;
+            
+//             .filter-button {
+//                 width: 160px;
+//                 height: 40px;
+//                 font-size: 0.7rem;
+//                 padding-left: 0.8rem;
+//             }
+//         }
+
+//         .TodoWrapper {
+//             width: 60vw;
+            
+//             #titleContainer {
+//                 .title {
+//                     font-size: 1.6rem;
+//                 }
+
+//                 .todo-btn {
+//                     padding: 0.3rem;
+//                     top: 2%;
+//                     right: 3%;
+//                 }
+//             }
+
+//             #filterContainer {
+//                 .search {
+//                     width: 16vw;
+//                 }
+//             }
+
+//             .Todo {
+//                 .inner-todo {
+//                     .checkContainer {
+//                         #taskName {
+//                             margin-left: 0.3rem;
+//                         }
+
+//                         .checkbox-label {
+//                             .checkmark {
+//                                 width: 0.7rem;
+//                                 height: 0.8rem;
+//                             }
+//                         }
+//                     }
+//                 }
+//             }
+//         }
+//     }
+// }
+
+
+// @media screen and (max-width: 768px) {
+//     .Container {
+//         width: 95%;
+//         padding-top: 1.5rem;
+//     }
+
+//     .Header {
+//         h2 {
+//             font-size: 0.9rem;
+//             width: 14rem;
+//         }
+//     }
+
+//     main {
+//         width: 95vw;
+//         gap: 30px;
+//         flex-direction: column;
+
+//         .filter-buttons {
+//             left: 5%;
+//             top: 5%;
+            
+//             .filter-button {
+//                 width: 140px;
+//                 height: 35px;
+//                 font-size: 0.6rem;
+//                 padding-left: 0.6rem;
+//             }
+//         }
+
+//         .TodoWrapper {
+//             width: 70vw;
+            
+//             #titleContainer {
+//                 .title {
+//                     font-size: 1.4rem;
+//                 }
+
+//                 .todo-btn {
+//                     padding: 0.2rem;
+//                     top: 3%;
+//                     right: 2%;
+//                 }
+//             }
+
+//             #filterContainer {
+//                 .search {
+//                     width: 18vw;
+//                 }
+//             }
+
+//             .Todo {
+//                 .inner-todo {
+//                     .checkContainer {
+//                         #taskName {
+//                             margin-left: 0.2rem;
+//                         }
+
+//                         .checkbox-label {
+//                             .checkmark {
+//                                 width: 0.6rem;
+//                                 height: 0.7rem;
+//                             }
+//                         }
+//                     }
+//                 }
+//             }
+//         }
+//     }
+// }
+
+// @media screen and (max-width: 576px) {
+//     .Container {
+//         width: 100%;
+//         padding-top: 1.2rem;
+//     }
+
+//     .Header {
+//         h2 {
+//             font-size: 0.8rem;
+//             width: 12rem;
+//         }
+//     }
+
+//     main {
+//         width: 100vw;
+//         gap: 20px;
+//         flex-direction: column;
+
+//         .filter-buttons {
+//             left: 3%;
+//             top: 3%;
+            
+//             .filter-button {
+//                 width: 120px;
+//                 height: 30px;
+//                 font-size: 0.5rem;
+//                 padding-left: 0.4rem;
+//             }
+//         }
+
+//         .TodoWrapper {
+//             width: 80vw;
+            
+//             #titleContainer {
+//                 .title {
+//                     font-size: 1.2rem;
+//                 }
+
+//                 .todo-btn {
+//                     padding: 0.1rem;
+//                     top: 4%;
+//                     right: 1%;
+//                 }
+//             }
+
+//             #filterContainer {
+//                 .search {
+//                     width: 20vw;
+//                 }
+//             }
+
+//             .Todo {
+//                 .inner-todo {
+//                     .checkContainer {
+//                         #taskName {
+//                             margin-left: 0.1rem;
+//                         }
+
+//                         .checkbox-label {
+//                             .checkmark {
+//                                 width: 0.5rem;
+//                                 height: 0.6rem;
+//                             }
+//                         }
+//                     }
+//                 }
+//             }
+//         }
+//     }
+// }
+
+/* 데스크탑 */
+@media screen and (max-width: 1200px) {
+
+}
+
+@media screen and (max-width: 992px) {
+
+}
+
+/* 태블릿 */
+@media screen and (max-width: 768px) {
+    div {
+        .Container {
+            main {
+                .Todo {
+                    .TaskModalContainer, .EditTaskModalContainer {
+                        width: 35vw;
+                        position: absolute;
+                        top: 0%; 
+                        right: 0%;
+
+                        .TaskModalInnerContainer {
+                            width: 30vw;
+                                input, select {
+                                    width: 25vw;
+                                }
+                                .task-note {
+                                    max-width: 25vw;
+                                    min-width: 25vw;
+                                }
+                                .create-btn {
+                                    width: 10rem;
+                                    font-size: 0.9rem;
+                                }
+                        }
+                    }       
+                    .TodoWrapper {
+                            width: 40vw;
+                        #titleContainer {
+                            .title {
+                                font-size: 1.95rem;
+                            }
+                        }
+                        #filterContainer {
+                            .search {
+                                // width: 15vw;
+
+                                .search-input {
+                                    // width: 12vw;
+                                }
+                            }
+
+                            .select-wrapper { 
+                                // width: 18vw;
+                                .css-b525cv-control, .css-17bb0rd-control {
+                                    // width: 18vw; 
+                                    height: 2vh !important;
+                                }
+                                .selected-value {
+                                    // left: 10%;
+                                }
+                            }
+                        
+                        #taskCountBox {
+                            font-size: 0.8rem;
+                        }
+                    }                
+                
+                    }
+
+                }
+            }        
+        }
+    }
+}
+/* 모바일 화면 */
+@media screen and (max-width: 576px) {
+    div {
+        .Container {
+            .Header {
+                h2 {
+                    // font-size: 1.2rem;
+                }
+            }
+            main {
+                .Todo {
+                    .TaskModalContainer, .EditTaskModalContainer {
+                        width: 65vw;
+                        position: absolute;
+                        top: 0%; 
+                        left: 50%;
+                        transform: translateX(-50%);
+
+                        h3 {
+                            font-size: 1.2rem;
+                        }
+
+                        .TaskModalInnerContainer {
+                            width: 30vw;
+                        
+                                input, select {
+                                    width: 25vw;
+                                }
+                                .task-note {
+                                    max-width: 25vw;
+                                    min-width: 25vw;
+                                }
+                                .create-btn {
+                                    width: 10rem;
+                                    font-size: 0.9rem;
+                                }
+                        }
+                    }
+                    .TodoWrapper {
+                        width: 50vw;
+
+                        #titleContainer {
+                            .title {
+                                font-size: 1.9rem;
+                            }
+                        }
+                        #filterContainer {
+                            justify-content: center;
+                            align-items: center;
+                            flex-direction: column;
+                            gap: 1rem;
+                                .search {
+                                    width: 40vw;
+
+                                .search-input {
+                                        width: 31vw;
+                                }
+                        }
+                            .select-wrapper { 
+                                width: 40vw;
+                                .css-b525cv-control, .css-17bb0rd-control {
+                                    width: 40vw; 
+                                }
+                                .selected-value {
+                                    left: 25%;
+                                }
+                            }
+                            .Todo {
+                                font-size: 0.8rem;
+                            }
+                        }
+                        #taskCountBox {
+                            font-size: 0.8rem;
+                        }
+                    }    
+                }
+            }
+        }        
+    }
+}
+
+// @media (max-width: 599px) {
+//     div {
+//         .Container {
+//             .Header {
+//                 h2 {
+//                     // font-size: 1.2rem;
+//                 }
+//             }
+//             main {
+//                 .Todo {
+//                     .TaskModalContainer, .EditTaskModalContainer {
+//                         width: 65vw;
+//                         position: absolute;
+//                         top: 0%; 
+//                         left: 0%;
+
+//                         h3 {
+//                             font-size: 1.2rem;
+//                         }
+
+//                         .TaskModalInnerContainer {
+//                             width: 30vw;
+                        
+//                                 input, select {
+//                                     width: 25vw;
+//                                 }
+//                                 .task-note {
+//                                     max-width: 25vw;
+//                                     min-width: 25vw;
+//                                 }
+//                                 .create-btn {
+//                                     width: 10rem;
+//                                     font-size: 0.9rem;
+//                                 }
+//                         }
+//                     }
+//                     .TodoWrapper {
+//                         width: 50vw;
+
+//                         #titleContainer {
+//                             .title {
+//                                 font-size: 1.9rem;
+//                             }
+//                         }
+//                         #filterContainer {
+//                             justify-content: center;
+//                             align-items: center;
+//                             flex-direction: column;
+//                             gap: 1rem;
+//                                 .search {
+//                                     width: 40vw;
+
+//                                 .search-input {
+//                                         width: 31vw;
+//                                 }
+//                         }
+//                             .select-wrapper { 
+//                                 width: 40vw;
+//                                 .css-b525cv-control, .css-17bb0rd-control {
+//                                     width: 40vw; 
+//                                 }
+//                                 .selected-value {
+//                                     left: 25%;
+//                                 }
+//                             }
+//                             .Todo {
+//                                 font-size: 0.8rem;
+//                             }
+//                         }
+//                         #taskCountBox {
+//                             font-size: 0.8rem;
+//                         }
+//                     }    
+//                 }
+//             }
+//         }        
+//     }
+// }
+
+
+// /* 중간 화면용 스타일 (태블릿) */
+// @media (min-width: 768px) and (max-width: 1024px) {
+//     div {
+//         .Container {
+//             main {
+//                 .Todo {
+//                     .TaskModalContainer, .EditTaskModalContainer {
+//                         width: 35vw;
+//                         position: absolute;
+//                         top: 0%; 
+//                         right: 0%;
+
+//                         .TaskModalInnerContainer {
+//                             width: 30vw;
+//                                 input, select {
+//                                     width: 25vw;
+//                                 }
+//                                 .task-note {
+//                                     max-width: 25vw;
+//                                     min-width: 25vw;
+//                                 }
+//                                 .create-btn {
+//                                     width: 10rem;
+//                                     font-size: 0.9rem;
+//                                 }
+//                         }
+//                     }       
+//                     .TodoWrapper {
+//                             width: 40vw;
+//                         #titleContainer {
+//                             .title {
+//                                 font-size: 1.95rem;
+//                             }
+//                         }
+//                         #filterContainer {
+//                             .search {
+//                                 // width: 15vw;
+
+//                                 .search-input {
+//                                     // width: 12vw;
+//                                 }
+//                             }
+
+//                             .select-wrapper { 
+//                                 // width: 18vw;
+//                                 .css-b525cv-control, .css-17bb0rd-control {
+//                                     // width: 18vw; 
+//                                     height: 2vh !important;
+//                                 }
+//                                 .selected-value {
+//                                     // left: 10%;
+//                                 }
+//                             }
+                        
+//                         #taskCountBox {
+//                             font-size: 0.8rem;
+//                         }
+//                     }                
+                
+//                 }
+
+//             }
+//         }        
+//     }
+// }
+
+// /* 큰 화면용 스타일 (데스크탑) */
+// @media (min-width: 1025px) {
+//     .Container {
+//     }
+// }
+// }

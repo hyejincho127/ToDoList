@@ -1,0 +1,78 @@
+{
+  "tasks": [
+    {
+      "id": "f432",
+      "task": "안녕하세용?",
+      "category": "work",
+      "note": "뀨~~",
+      "image": null,
+      "dueDate": "2024-05-18T09:23:09.112Z",
+      "url": "헤헤헤헤헹",
+      "completed": true,
+      "isCompleted": false,
+      "isImportant": true
+    },
+    {
+      "id": "fbcc",
+      "task": "복근 운동",
+      "category": "fitness",
+      "note": "소미핏 복근 운동 10분",
+      "image": null,
+      "dueDate": "2024-05-20T12:01:23.951Z",
+      "url": "",
+      "isCompleted": false,
+      "isImportant": true
+    },
+    {
+      "id": "e090",
+      "task": "자바스크립트 공부",
+      "category": "study",
+      "note": "모던 자바스크립트 ",
+      "image": null,
+      "dueDate": "2024-05-23T02:39:29.000Z",
+      "url": "https://ko.javascript.info/",
+      "isCompleted": false,
+      "isImportant": false
+    },
+    {
+      "id": "a5e0",
+      "task": "get summer tshirts",
+      "category": "daily",
+      "note": "from muji",
+      "image": null,
+      "dueDate": "2024-05-21T05:23:01.511Z",
+      "url": "https://www.mujikorea.net/",
+      "isCompleted": false
+    },
+    {
+      "id": "3351",
+      "task": "저녁 요리 재료 구매",
+      "category": "daily",
+      "note": "저녁요리 재료 구매 @할모니 마트",
+      "image": null,
+      "dueDate": "2024-06-03T01:25:00.000Z",
+      "url": "",
+      "isCompleted": false
+    },
+    {
+      "id": "cfd5",
+      "task": "유데미 자바스크립트 코스 듣기",
+      "category": "study",
+      "note": "",
+      "image": null,
+      "dueDate": "2024-06-10T04:18:23.705Z",
+      "url": "",
+      "isCompleted": false
+    },
+    {
+      "id": "6a78",
+      "task": "팟타이 만들기",
+      "category": "daily",
+      "note": "팟타이 재료 : 숙주, 쌀국수면, 팟타이 소스, 땅콩",
+      "image": null,
+      "dueDate": "2024-06-11T10:22:55.958Z",
+      "url": "",
+      "isCompleted": false
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+
+* {
+    margin: 0;
+    padding: 0; 
+
+    body {
+        font-family: 'Pretendard', sans-serif;
+        color: #524444;
+        font-size: 1rem;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        appearance: none;
+    }
+
+    input {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+    
+    button {
+        outline: none;
+        background-color: inherit;
+        cursor: pointer;
+    }
+
+    li {
+        list-style: none;
+    }
+}
+
+// 반응형
+
+@media (max-width: 1200px) {
+    main {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .TodoWrapper {
+        width: 90vw;
+    }
+    .search {
+        width: 50vw;
+    }
+}
+
+@media (max-width: 768px) {
+    .Container {
+        padding: 1rem;
+    }
+    h2 {
+        font-size: 1rem;
+    }
+    .modalBackground {
+        width: 80vw;
+    }
+    main {
+        width: 100vw;
+        gap: 10px;
+    }
+    .TodoWrapper {
+        width: 95vw;
+    }
+    .task {
+        flex-direction: column;
+        align-items: flex-start;
+        .task-title {
+            width: 100%;
+        }
+    }
+    .search {
+        width: 70vw;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        font-size: 0.8rem;
+    }
+    h2 {
+        width: 15rem;
+    }
+    .modalBackground {
+        width: 90vw;
+    }
+    .filter-button {
+        width: 90vw;
+    }
+    .category-filter {
+        width: 80vw;
+    }
+    .TodoWrapper {
+        width: 100vw;
+    }
+    .task {
+        padding: 0.5rem;
+    }
+    .search {
+        width: 80vw;
+    }
+}

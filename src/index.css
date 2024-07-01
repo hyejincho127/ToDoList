@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+* body {
+  font-family: "Pretendard", sans-serif;
+  color: #524444;
+  font-size: 1rem;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  appearance: none;
+}
+* input {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+* button {
+  outline: none;
+  background-color: inherit;
+  cursor: pointer;
+}
+* li {
+  list-style: none;
+}
+
+/*# sourceMappingURL=index.css.map */
