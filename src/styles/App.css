@@ -204,7 +204,7 @@ div .Container main #categoryContainer .category-filter:focus {
 }
 div .Container main .TodoWrapper {
   width: 40vw;
-  min-height: 70vh;
+  min-height: 90vh;
   max-height: auto;
   padding-top: 2rem;
   padding-bottom: 4rem;
