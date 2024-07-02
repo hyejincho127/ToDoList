@@ -9,7 +9,7 @@
       "dueDate": "2024-05-18T09:23:09.112Z",
       "url": "헤헤헤헤헹",
       "completed": true,
-      "isCompleted": false,
+      "isCompleted": true,
       "isImportant": true
     },
     {
@@ -20,7 +20,7 @@
       "image": null,
       "dueDate": "2024-05-20T12:01:23.951Z",
       "url": "",
-      "isCompleted": false,
+      "isCompleted": true,
       "isImportant": true
     },
     {
@@ -31,18 +31,8 @@
       "image": null,
       "dueDate": "2024-05-23T02:39:29.000Z",
       "url": "https://ko.javascript.info/",
-      "isCompleted": false,
+      "isCompleted": true,
       "isImportant": false
-    },
-    {
-      "id": "a5e0",
-      "task": "get summer tshirts",
-      "category": "daily",
-      "note": "from muji",
-      "image": null,
-      "dueDate": "2024-05-21T05:23:01.511Z",
-      "url": "https://www.mujikorea.net/",
-      "isCompleted": false
     },
     {
       "id": "3351",
@@ -52,7 +42,8 @@
       "image": null,
       "dueDate": "2024-06-03T01:25:00.000Z",
       "url": "",
-      "isCompleted": false
+      "isCompleted": true,
+      "isImportant": true
     },
     {
       "id": "cfd5",
@@ -62,7 +53,8 @@
       "image": null,
       "dueDate": "2024-06-10T04:18:23.705Z",
       "url": "",
-      "isCompleted": false
+      "isCompleted": false,
+      "isImportant": false
     },
     {
       "id": "6a78",

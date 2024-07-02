@@ -1,71 +1,38 @@
 @charset "UTF-8";
 /* 데스크탑 */
-/* 태블릿 */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
+  div .Container .Header h2 {
+    font-size: 1.2rem;
+  }
   div .Container main .Todo .TaskModalContainer, div .Container main .Todo .EditTaskModalContainer {
-    width: 35vw;
-    position: absolute;
-    top: 0%;
-    right: 0%;
-  }
-  div .Container main .Todo .TaskModalContainer .TaskModalInnerContainer, div .Container main .Todo .EditTaskModalContainer .TaskModalInnerContainer {
-    width: 30vw;
-  }
-  div .Container main .Todo .TaskModalContainer .TaskModalInnerContainer input, div .Container main .Todo .TaskModalContainer .TaskModalInnerContainer select, div .Container main .Todo .EditTaskModalContainer .TaskModalInnerContainer input, div .Container main .Todo .EditTaskModalContainer .TaskModalInnerContainer select {
-    width: 25vw;
-  }
-  div .Container main .Todo .TaskModalContainer .TaskModalInnerContainer .task-note, div .Container main .Todo .EditTaskModalContainer .TaskModalInnerContainer .task-note {
-    max-width: 25vw;
-    min-width: 25vw;
-  }
-  div .Container main .Todo .TaskModalContainer .TaskModalInnerContainer .create-btn, div .Container main .Todo .EditTaskModalContainer .TaskModalInnerContainer .create-btn {
-    width: 10rem;
-    font-size: 0.9rem;
-  }
-  div .Container main .Todo .TodoWrapper {
     width: 40vw;
-  }
-  div .Container main .Todo .TodoWrapper #titleContainer .title {
-    font-size: 1.95rem;
-  }
-  div .Container main .Todo .TodoWrapper #filterContainer .select-wrapper .css-b525cv-control, div .Container main .Todo .TodoWrapper #filterContainer .select-wrapper .css-17bb0rd-control {
-    height: 2vh !important;
-  }
-  div .Container main .Todo .TodoWrapper #filterContainer #taskCountBox {
-    font-size: 0.8rem;
-  }
-}
-/* 모바일 화면 */
-@media screen and (max-width: 576px) {
-  div .Container main .Todo .TaskModalContainer, div .Container main .Todo .EditTaskModalContainer {
-    width: 65vw;
     position: absolute;
     top: 0%;
     left: 50%;
     transform: translateX(-50%);
   }
-  div .Container main .Todo .TaskModalContainer h3, div .Container main .Todo .EditTaskModalContainer h3 {
-    font-size: 1.2rem;
-  }
-  div .Container main .Todo .TaskModalContainer .TaskModalInnerContainer, div .Container main .Todo .EditTaskModalContainer .TaskModalInnerContainer {
+  div .Container main .Todo .TaskModalContainer .TaskModalInnerContainer, div .Container main .Todo .TaskModalContainer .EditTaskModalInnerContainer, div .Container main .Todo .EditTaskModalContainer .TaskModalInnerContainer, div .Container main .Todo .EditTaskModalContainer .EditTaskModalInnerContainer {
     width: 30vw;
   }
-  div .Container main .Todo .TaskModalContainer .TaskModalInnerContainer input, div .Container main .Todo .TaskModalContainer .TaskModalInnerContainer select, div .Container main .Todo .EditTaskModalContainer .TaskModalInnerContainer input, div .Container main .Todo .EditTaskModalContainer .TaskModalInnerContainer select {
-    width: 25vw;
+  div .Container main .Todo .TaskModalContainer .TaskModalInnerContainer input, div .Container main .Todo .TaskModalContainer .TaskModalInnerContainer select, div .Container main .Todo .TaskModalContainer .EditTaskModalInnerContainer input, div .Container main .Todo .TaskModalContainer .EditTaskModalInnerContainer select, div .Container main .Todo .EditTaskModalContainer .TaskModalInnerContainer input, div .Container main .Todo .EditTaskModalContainer .TaskModalInnerContainer select, div .Container main .Todo .EditTaskModalContainer .EditTaskModalInnerContainer input, div .Container main .Todo .EditTaskModalContainer .EditTaskModalInnerContainer select {
+    width: 30vw;
   }
-  div .Container main .Todo .TaskModalContainer .TaskModalInnerContainer .task-note, div .Container main .Todo .EditTaskModalContainer .TaskModalInnerContainer .task-note {
-    max-width: 25vw;
-    min-width: 25vw;
+  div .Container main .Todo .TaskModalContainer .TaskModalInnerContainer .task-note, div .Container main .Todo .TaskModalContainer .EditTaskModalInnerContainer .task-note, div .Container main .Todo .EditTaskModalContainer .TaskModalInnerContainer .task-note, div .Container main .Todo .EditTaskModalContainer .EditTaskModalInnerContainer .task-note {
+    max-width: 30vw;
+    min-width: 30vw;
   }
-  div .Container main .Todo .TaskModalContainer .TaskModalInnerContainer .create-btn, div .Container main .Todo .EditTaskModalContainer .TaskModalInnerContainer .create-btn {
-    width: 10rem;
+  div .Container main .Todo .TaskModalContainer .TaskModalInnerContainer .create-btn, div .Container main .Todo .TaskModalContainer .EditTaskModalInnerContainer .create-btn, div .Container main .Todo .EditTaskModalContainer .TaskModalInnerContainer .create-btn, div .Container main .Todo .EditTaskModalContainer .EditTaskModalInnerContainer .create-btn {
+    width: 12rem;
     font-size: 0.9rem;
+  }
+  div .Container main .Todo .TaskModalContainer .TaskModalInnerContainer p, div .Container main .Todo .TaskModalContainer .EditTaskModalInnerContainer p, div .Container main .Todo .EditTaskModalContainer .TaskModalInnerContainer p, div .Container main .Todo .EditTaskModalContainer .EditTaskModalInnerContainer p {
+    margin-left: 0.3rem;
   }
   div .Container main .Todo .TodoWrapper {
     width: 50vw;
   }
   div .Container main .Todo .TodoWrapper #titleContainer .title {
-    font-size: 1.9rem;
+    font-size: 1.8rem;
   }
   div .Container main .Todo .TodoWrapper #filterContainer {
     justify-content: center;
@@ -77,13 +44,14 @@
     width: 40vw;
   }
   div .Container main .Todo .TodoWrapper #filterContainer .search .search-input {
-    width: 31vw;
+    width: 34vw;
+    font-size: 0.8rem;
   }
   div .Container main .Todo .TodoWrapper #filterContainer .select-wrapper {
-    width: 40vw;
+    width: 43vw;
   }
   div .Container main .Todo .TodoWrapper #filterContainer .select-wrapper .css-b525cv-control, div .Container main .Todo .TodoWrapper #filterContainer .select-wrapper .css-17bb0rd-control {
-    width: 40vw;
+    width: 43vw;
   }
   div .Container main .Todo .TodoWrapper #filterContainer .select-wrapper .selected-value {
     left: 25%;
@@ -91,7 +59,190 @@
   div .Container main .Todo .TodoWrapper #filterContainer .Todo {
     font-size: 0.8rem;
   }
+  div .Container main .Todo .TodoWrapper #todoContainer .Todo .inner-todo .checkContainer #taskName {
+    font-size: 1rem;
+  }
+  div .Container main .Todo .TodoWrapper #todoContainer .Todo .inner-todo .button-container .todo-category {
+    font-size: 0.9rem;
+  }
+  div .Container main .Todo .TodoWrapper #todoContainer .Todo .detailContainer {
+    font-size: 0.9rem;
+  }
   div .Container main .Todo .TodoWrapper #taskCountBox {
+    height: 4rem;
+    font-size: 0.9rem;
+    flex-direction: column;
+  }
+}
+/* 태블릿 */
+@media screen and (max-width: 768px) {
+  div .Container .Header h2 {
+    font-size: 1.2rem;
+  }
+  div .Container main .Todo .TaskModalContainer, div .Container main .Todo .EditTaskModalContainer {
+    width: 50vw;
+    position: absolute;
+    top: 2%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  div .Container main .Todo .TaskModalContainer h3, div .Container main .Todo .EditTaskModalContainer h3 {
+    font-size: 1.2rem;
+  }
+  div .Container main .Todo .TaskModalContainer .TaskModalInnerContainer, div .Container main .Todo .TaskModalContainer .EditTaskModalContainer, div .Container main .Todo .EditTaskModalContainer .TaskModalInnerContainer, div .Container main .Todo .EditTaskModalContainer .EditTaskModalContainer {
+    width: 35vw;
+  }
+  div .Container main .Todo .TaskModalContainer .TaskModalInnerContainer input, div .Container main .Todo .TaskModalContainer .TaskModalInnerContainer select, div .Container main .Todo .TaskModalContainer .EditTaskModalContainer input, div .Container main .Todo .TaskModalContainer .EditTaskModalContainer select, div .Container main .Todo .EditTaskModalContainer .TaskModalInnerContainer input, div .Container main .Todo .EditTaskModalContainer .TaskModalInnerContainer select, div .Container main .Todo .EditTaskModalContainer .EditTaskModalContainer input, div .Container main .Todo .EditTaskModalContainer .EditTaskModalContainer select {
+    width: 35vw;
+  }
+  div .Container main .Todo .TaskModalContainer .TaskModalInnerContainer .task-note, div .Container main .Todo .TaskModalContainer .EditTaskModalContainer .task-note, div .Container main .Todo .EditTaskModalContainer .TaskModalInnerContainer .task-note, div .Container main .Todo .EditTaskModalContainer .EditTaskModalContainer .task-note {
+    max-width: 35vw;
+    min-width: 35vw;
+  }
+  div .Container main .Todo .TaskModalContainer .TaskModalInnerContainer .create-btn, div .Container main .Todo .TaskModalContainer .EditTaskModalContainer .create-btn, div .Container main .Todo .EditTaskModalContainer .TaskModalInnerContainer .create-btn, div .Container main .Todo .EditTaskModalContainer .EditTaskModalContainer .create-btn {
+    width: 12rem;
+    font-size: 0.9rem;
+  }
+  div .Container main .Todo .TodoWrapper {
+    width: 60vw;
+  }
+  div .Container main .Todo .TodoWrapper #titleContainer .title {
+    font-size: 1.7rem;
+  }
+  div .Container main .Todo .TodoWrapper #titleContainer .todo-btn {
+    padding: 0.4rem;
+  }
+  div .Container main .Todo .TodoWrapper #filterContainer {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  div .Container main .Todo .TodoWrapper #filterContainer .search {
+    width: 40vw;
+  }
+  div .Container main .Todo .TodoWrapper #filterContainer .search .search-input {
+    width: 35vw;
+    font-size: 0.8rem;
+  }
+  div .Container main .Todo .TodoWrapper #filterContainer .select-wrapper {
+    width: 43vw;
+  }
+  div .Container main .Todo .TodoWrapper #filterContainer .select-wrapper .css-b525cv-control, div .Container main .Todo .TodoWrapper #filterContainer .select-wrapper .css-17bb0rd-control {
+    width: 43vw;
+  }
+  div .Container main .Todo .TodoWrapper #filterContainer .select-wrapper .selected-value {
+    left: 25%;
+  }
+  div .Container main .Todo .TodoWrapper #filterContainer .Todo {
+    font-size: 0.8rem;
+  }
+  div .Container main .Todo .TodoWrapper #todoContainer .Todo .inner-todo .checkContainer #taskName {
+    font-size: 0.9rem;
+  }
+  div .Container main .Todo .TodoWrapper #todoContainer .Todo .inner-todo .button-container button {
+    width: 1.2rem;
+  }
+  div .Container main .Todo .TodoWrapper #todoContainer .Todo .inner-todo .button-container .todo-category {
+    font-size: 0.8rem;
+  }
+  div .Container main .Todo .TodoWrapper #todoContainer .Todo .detailContainer {
+    font-size: 0.8rem;
+  }
+  div .Container main .Todo .TodoWrapper #taskCountBox {
+    height: 4rem;
+    font-size: 0.8rem;
+    flex-direction: column;
+  }
+  div .Container main #categoryContainer .category-filter {
+    font-size: 0.8rem;
+  }
+}
+/* 모바일 화면 */
+@media screen and (max-width: 576px) {
+  div .Container .Header h2 {
+    font-size: 1.1rem;
+  }
+  div .Container main .Todo .TaskModalContainer, div .Container main .Todo .EditTaskModalContainer {
+    width: 60vw;
+    position: absolute;
+    left: 60%;
+    transform: translateX(-50%);
+  }
+  div .Container main .Todo .TaskModalContainer h3, div .Container main .Todo .EditTaskModalContainer h3 {
+    font-size: 1.1rem;
+  }
+  div .Container main .Todo .TaskModalContainer .TaskModalInnerContainer, div .Container main .Todo .EditTaskModalContainer .TaskModalInnerContainer {
+    width: 40vw;
+  }
+  div .Container main .Todo .TaskModalContainer .TaskModalInnerContainer input, div .Container main .Todo .TaskModalContainer .TaskModalInnerContainer select, div .Container main .Todo .EditTaskModalContainer .TaskModalInnerContainer input, div .Container main .Todo .EditTaskModalContainer .TaskModalInnerContainer select {
+    width: 40vw;
+    font-size: 0.8rem;
+  }
+  div .Container main .Todo .TaskModalContainer .TaskModalInnerContainer .task-note, div .Container main .Todo .EditTaskModalContainer .TaskModalInnerContainer .task-note {
+    max-width: 40vw;
+    min-width: 40vw;
+  }
+  div .Container main .Todo .TaskModalContainer .TaskModalInnerContainer .create-btn, div .Container main .Todo .EditTaskModalContainer .TaskModalInnerContainer .create-btn {
+    width: 10rem;
+    font-size: 0.9rem;
+  }
+  div .Container main .Todo .TaskModalContainer .TaskModalInnerContainer p, div .Container main .Todo .EditTaskModalContainer .TaskModalInnerContainer p {
+    font-size: 0.9rem;
+  }
+  div .Container main .Todo .TodoWrapper {
+    width: 60vw;
+    left: 10%;
+  }
+  div .Container main .Todo .TodoWrapper #titleContainer .title {
+    font-size: 1.5rem;
+  }
+  div .Container main .Todo .TodoWrapper #titleContainer .todo-btn {
+    padding: 0.3rem;
+  }
+  div .Container main .Todo .TodoWrapper #filterContainer {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  div .Container main .Todo .TodoWrapper #filterContainer .search {
+    width: 40vw;
+  }
+  div .Container main .Todo .TodoWrapper #filterContainer .search .search-input {
+    width: 34vw;
+    font-size: 0.8rem;
+  }
+  div .Container main .Todo .TodoWrapper #filterContainer .select-wrapper {
+    width: 43vw;
+  }
+  div .Container main .Todo .TodoWrapper #filterContainer .select-wrapper .css-b525cv-control, div .Container main .Todo .TodoWrapper #filterContainer .select-wrapper .css-17bb0rd-control {
+    width: 43vw;
+  }
+  div .Container main .Todo .TodoWrapper #filterContainer .select-wrapper .selected-value {
+    left: 25%;
+  }
+  div .Container main .Todo .TodoWrapper #filterContainer .Todo {
+    font-size: 0.75rem;
+  }
+  div .Container main .Todo .TodoWrapper #todoContainer .Todo .inner-todo .checkContainer #taskName {
+    font-size: 0.8rem;
+  }
+  div .Container main .Todo .TodoWrapper #todoContainer .Todo .inner-todo .button-container button {
+    width: 1.1rem;
+  }
+  div .Container main .Todo .TodoWrapper #todoContainer .Todo .inner-todo .button-container .todo-category {
+    font-size: 0.7rem;
+  }
+  div .Container main .Todo .TodoWrapper #todoContainer .Todo .detailContainer {
+    font-size: 0.8rem;
+  }
+  div .Container main .Todo .TodoWrapper #taskCountBox {
+    height: 4rem;
+    font-size: 0.8rem;
+    flex-direction: column;
+  }
+  div .Container main #categoryContainer .category-filter {
     font-size: 0.8rem;
   }
 }
