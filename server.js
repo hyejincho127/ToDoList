@@ -10,8 +10,29 @@ const PORT = 3001;
 
 let tasks = [];
 
+
+// Ensure the 'data' directory exists
+const dataDir = path.join(__dirname, 'data');
+const tasksFilePath = path.join(dataDir, 'tasks.json');
+
+// Ensure the 'data' directory exists
+if (!fs.existsSync(dataDir)) {
+    fs.mkdirSync(dataDir);
+}
+
+// Ensure the 'tasks.json' file exists
+if (!fs.existsSync(tasksFilePath)) {
+    fs.writeFileSync(tasksFilePath, JSON.stringify({ tasks: [] }, null, 2));
+}
+
 app.use(express.json());
 app.use(cors()); 
+
+
+// 기본 루트 경로 엔드포인트 추가
+app.get('/', (req, res) => {
+    res.send('Welcome to the To-Do List API');
+});
 
 // // 이미지 저장할 디렉토리 설정
 // const uploadDir = path.join(__dirname, 'uploads');
