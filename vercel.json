@@ -1,18 +1,26 @@
 {
-    "version": 2,
-    "builds": [
-      {
-        "src": "api/server.js",
-        "use": "@vercel/node"
-      },
-      {
-        "src": "api/json-server.js",
-        "use": "@vercel/node"
-      }
-    ],
-    "routes": [
-      { "src": "/api/db", "dest": "json-server.js" },
-      { "src": "/api/(.*)", "dest": "api/$1" }
-    ]
-  }
-  
+  "builds": [
+    {
+      "src": "server.js",
+      "use": "@vercel/node"
+    },
+    {
+      "src": "api/json-server.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/db",
+      "dest": "/api/json-server.js"
+    },
+    {
+      "src": "/api/(.*)",
+      "dest": "/api/$1"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "server.js"
+    }
+  ]
+}
